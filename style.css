@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+}
+#menu{
+    border: 1px solid rgb(141, 137, 137);
+    width: 160px;
+    height: 60px;
+    margin: 10px 10px;
+}
+#menu-color{
+    border: 1px solid rgb(141, 137, 137);
+    width: 160px;
+    height: 60px;
+    margin: 10px 10px;
+}
+#menu-size-canvas{
+    border: 1px solid rgb(141, 137, 137);
+    width: 160px;
+    height: 60px;
+    margin: 10px 10px;
+}
