@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu">
+            <input type="radio" checked name='tool' value="Pencil" id="pen">
+            <label for="pen">Pencil</label><br>
+            <input type="radio" name='tool' value="Fill bucket" id="fill">
+            <label for="fill">Fill bucket</label><br>
+            <input type="radio" name='tool' value="Choose color" id="pick">
+            <label for="pick">Choose color</label><br>
+        </div>
+        <div id="menu-color">
+            <label>Выбор цвета:</label>
+            <select size="1"  name="color[]" id="color"></select>        
+        </div>
+        <div id="menu-size-canvas">
+            <label>Виртуальное поле канвас:</label>
+            <select id="size-canvas" size="1">
+                <option value="128">128x128</option>
+                <option value="256" selected>256x256</option>
+                <option value="512">512x512</option>
+            </select>
+        </div>
+    </div>
+    <canvas id="canvas" width="256" height="256"></canvas>
+    <script defer="defer" src="32x32source.js"></script>
+    <script defer="defer" src="script.js"></script>
+</body>
+</html>
